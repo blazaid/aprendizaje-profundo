@@ -1,0 +1,10 @@
+[project]
+name = "aprendizaje-profundo"
+version = "0.0.2"
+description = "Repositorio para almacenar contenidos que uso een diferentes asignaturas de grado y máster"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "torch>=2.6.0",
+]

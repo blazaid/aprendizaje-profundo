@@ -16,8 +16,8 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-#      - name: Copy notebooks 📔
-#        run: mkdir -p build && cp -R Notebooks build
+      - name: Copy notebooks 📔
+        run: mkdir -p build && cp -R Notebooks build
 
       - name: Copy slides images 🖼️
         run: mkdir -p build/Slides && cp -R Slides/images build/Slides
