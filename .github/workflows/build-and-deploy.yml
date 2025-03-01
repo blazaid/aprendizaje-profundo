@@ -16,11 +16,14 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Copy notebooks 📔
-        run: mkdir -p build && cp -R Notebooks build
-
-      - name: Copy slides images 🖼️
-        run: mkdir -p build/Slides && cp -R Slides/images build/Slides
+      - name: Copy resources 📔
+        run: |
+          mkdir -p build
+          cp -R Notebooks build
+          cp -R Datasets build
+          cp -R Exercises build
+          mkdir -p build/Slides
+          cp -R Slides/images build/Slides
 
       - name: Build MARP PDF slides 🛝
         uses: docker://marpteam/marp-cli:v1.7.0
