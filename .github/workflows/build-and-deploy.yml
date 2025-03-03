@@ -16,9 +16,10 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Copy resources 📔
+      - name: Copy stuff 📔
         run: |
           mkdir -p build
+          cp -R index.html build
           cp -R Notebooks build
           cp -R Datasets build
           cp -R Exercises build
@@ -38,9 +39,6 @@ jobs:
           args: -I Slides/ -o build/Slides/ --html --allow-local-files --theme-set Slides/styles/
         env:
           MARP_USER: root:root
-
-#      - name: Deploy web page 🌐
-#        run: mkdir -p build && cp -R index.html build
   
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
