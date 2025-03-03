@@ -157,6 +157,6 @@ cython_debug/
 
 # Tensorboard
 */logs
-*/tmp
+tmp
 .idea
 
