@@ -59,12 +59,12 @@ def train(
         avg_train_loss = running_loss / total_samples
         history["train_loss"].append(avg_train_loss)
 
-        msg = f"Epoch {epoch + 1}/{n_epochs} ({elapsed:.2f}s), Train Loss: {avg_train_loss:.4f}"
+        msg = f"Epoch {epoch + 1}/{n_epochs} ({elapsed:.2f}s), Train loss: {avg_train_loss:.4f}"
 
         if metric_fn is not None:
             avg_train_metric = metric_fn.compute().item()
             history["train_metric"].append(avg_train_metric)
-            msg += f", Train Acc: {avg_train_metric:.4f}"
+            msg += f", Train metric: {avg_train_metric:.4f}"
 
         if val_loader:
             model.eval()
@@ -87,12 +87,12 @@ def train(
 
             avg_val_loss = val_loss / val_samples
             history["val_loss"].append(avg_val_loss)
-            msg += f", Val Loss: {avg_val_loss:.4f}"
+            msg += f", Val loss: {avg_val_loss:.4f}"
 
             if metric_fn is not None:
                 avg_val_metric = metric_fn.compute().item()
                 history["val_metric"].append(avg_val_metric)
-                msg += f", Val Acc: {avg_val_metric:.4f}"
+                msg += f", Val. metric: {avg_val_metric:.4f}"
 
         if verbose:
             print(msg)
