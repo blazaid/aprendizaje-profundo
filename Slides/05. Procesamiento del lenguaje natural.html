@@ -74,7 +74,6 @@
 <h2>Aprendizaje profundo</h2>
 <h3>Departamento de Sistemas Informáticos</h3>
 <h4>E.T.S.I. de Sistemas Informáticos - UPM</h4>
-<h5>8 de marzo de 2024</h5>
 <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-informational.svg" alt="" style="height:30px;" /></a></p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-theme="avocado" data-marpit-pagination="2" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
@@ -87,7 +86,7 @@
 <p>Abordaremos el NLP desde el punto de vista del aprendizaje profundo</p>
 <ul>
 <li>Veremos diferentes formas de representar el lenguaje y la solución más adoptada:<br />
-los <i>embeddings</i></li>
+los <em>embeddings</em></li>
 <li>También resolveremos problemas usando CNN y RNN</li>
 </ul>
 </section>
@@ -113,13 +112,13 @@ los <i>embeddings</i></li>
 <h1>Áreas de trabajo en NLP</h1>
 <p>Podemos dividir el NLP en dos áreas de trabajo bien diferenciadas:</p>
 <ol>
-<li><i>Natural language generation</i> (NLG): Generación de lenguaje a partir de representaciones internas
+<li><em>Natural language generation</em> (NLG): Generación de lenguaje a partir de representaciones internas
 <ul>
 <li>Puede considerarse como un componente de traducción entre los datos y el lenguaje natural</li>
 <li>Se subdivide en múltiples tareas: planificación del discurso, selección léxica, ...</li>
 </ul>
 </li>
-<li><i>Natural language understanding</i> (NLU): Comprensión lectora de las máquinas
+<li><em>Natural language understanding</em> (NLU): Comprensión lectora de las máquinas
 <ul>
 <li>Transformar el lenguaje natural en una representación adecuada para la máquina</li>
 <li>Normalmente, requiere diferentes niveles de análisis: morfológico, sintáctico, semántico, discurso, ...</li>
@@ -128,21 +127,21 @@ los <i>embeddings</i></li>
 </ol>
 <p>El NLU es más complejo que NLG (aunque <em><strong>ambos problemas son muy difíciles</strong></em>)</p>
 <blockquote>
-<p><sup>1</sup> Artículo: <a href="https://www.jstor.org/stable/410891?casa_token=HvgwCSUt7p8AAAAA%3A86XsVcuDQEfE0ByMoGa9ERrtVKWUzd-lkCpvGPa-9IBC6uRX4S75CaWkPBA-8vidCMxRWAa1Kq6tHMQ7JCQAJZnNPlqArpw2ZUkizRkB1Rx0J9FQow"><i>Logical syntax and semantics: Their linguistic relevance</i></a></p>
+<p><sup>1</sup> Artículo: <a href="https://www.jstor.org/stable/410891?casa_token=HvgwCSUt7p8AAAAA%3A86XsVcuDQEfE0ByMoGa9ERrtVKWUzd-lkCpvGPa-9IBC6uRX4S75CaWkPBA-8vidCMxRWAa1Kq6tHMQ7JCQAJZnNPlqArpw2ZUkizRkB1Rx0J9FQow"><em>Logical syntax and semantics: Their linguistic relevance</em></a></p>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-theme="avocado" data-marpit-pagination="6" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
 <h1>Los dos enfoques principales en NLP</h1>
-<p><strong>Basados en gramáticas</strong> o <strong>modelos lógicos</strong>: Enfoque <i>top-down</i></p>
+<p><strong>Basados en gramáticas</strong> o <strong>modelos lógicos</strong>: Enfoque <em>top-down</em></p>
 <ul>
 <li>Diseñados para intentar reflejar la estructura lógica del lenguaje</li>
 <li>Surgen de las teorías lingüísticas de N. Chomsky a mediados de los 1950<sup>1</sup></li>
 <li>Desarrollar reglas de reconocimiento de patrones estructurales, utilizando un formalismo gramatical específico</li>
 <li>Los patrones de reconocimiento se definen por las reglas e información adicional</li>
 </ul>
-<p><strong>Basados en datos</strong>: Enfoque <i>bottom-up</i></p>
+<p><strong>Basados en datos</strong>: Enfoque <em>bottom-up</em></p>
 <ul>
-<li>Abarcan tanto modelos probabilísticos como basados en <i>machine learning</i></li>
+<li>Abarcan tanto modelos probabilísticos como basados en <em>machine learning</em></li>
 <li>Se parte de ejemplos para calcular su probabilidad de aparición en un contexto</li>
 <li>Permiten predecir la siguiente unidad en un contexto determinado <strong>sin reglas gramaticales explícitas</strong></li>
 </ul>
@@ -187,7 +186,7 @@ los <i>embeddings</i></li>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-theme="avocado" data-marpit-pagination="10" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
-<h1>Aplicaciones <i>one-to-many</i></h1>
+<h1>Aplicaciones <em>one-to-many</em></h1>
 <p>En NLP no existen demasiadas aplicaciones one-to-many</p>
 <ul>
 <li>Después de todo, una parte del NLP es el NLU, que trabaja con secuencias de entrada</li>
@@ -199,7 +198,7 @@ los <i>embeddings</i></li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-theme="avocado" data-marpit-pagination="11" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
-<h1>Aplicaciones <i>many-to-one</i></h1>
+<h1>Aplicaciones <em>many-to-one</em></h1>
 <p>Tenemos, por ejemplo, los motores de búsqueda como Google, Yahoo o Bing</p>
 <ul>
 <li>El motor de búsqueda de Google incluso entiende tanto el texto como el contexto
@@ -217,12 +216,12 @@ los <i>embeddings</i></li>
 <li>Filtros de spam<sup>2</sup>, procesamiento de historiales clínicos<sup>3</sup>, detección de paráfrasis, ...</li>
 </ul>
 <blockquote>
-<p><sup>2</sup> Artículo: <a href="https://www.sciencedirect.com/science/article/pii/S0167739X19306879?casa_token=GIRf3Zf3s4UAAAAA:kkR8mI1vr-OT31kMVRvTLJXSkH6C91ZTBeIbJBxNBWDtn8cTVjwybdXaP_JNmz6FGscFdn80"><i>Deep learning to filter SMS Spam</i></a><br />
-<sup>3</sup> Artículo: <a href="https://medinform.jmir.org/2019/2/e12239/"><i> Natural Language Processing of Clinical Notes on Chronic Diseases: Systematic Review</i></a></p>
+<p><sup>2</sup> Artículo: <a href="https://www.sciencedirect.com/science/article/pii/S0167739X19306879?casa_token=GIRf3Zf3s4UAAAAA:kkR8mI1vr-OT31kMVRvTLJXSkH6C91ZTBeIbJBxNBWDtn8cTVjwybdXaP_JNmz6FGscFdn80"><em>Deep learning to filter SMS Spam</em></a><br />
+<sup>3</sup> Artículo: <a href="https://medinform.jmir.org/2019/2/e12239/"><em>Natural Language Processing of Clinical Notes on Chronic Diseases: Systematic Review</em></a></p>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-theme="avocado" data-marpit-pagination="12" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
-<h1>Aplicaciones <i>many-to-many</i></h1>
+<h1>Aplicaciones <em>many-to-many</em></h1>
 <p>Ejemplo típico <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container> asistentes virtuales (p.ej. Siri de Apple o Alexa de Amazon)</p>
 <ul>
 <li>O implementaciones libres como <i>Open Assistant</i><sup>4</sup>, <i>Mycroft AI</i><sup>5</sup> y <i>Dragonfire</i><sup>6</sup></li>
@@ -236,11 +235,11 @@ los <i>embeddings</i></li>
 <li>Etiquetado gramatical, corrección ortográfica<sup>8</sup>, ...</li>
 </ul>
 <blockquote>
-<p><sup>4</sup> Proyecto: <a href="https://openassistant.org"><i>Open Assistant</i></a><br />
-<sup>5</sup> Proyecto: <a href="https://mycroft.ai"><i>Mycroft AI</i></a><br />
-<sup>6</sup> Proyecto: <a href="https://dragon.computer/"><i>Dragonfire</i></a><br />
-<sup>7</sup> El juego <a href="https://play.aidungeon.io"><i>AI Dungeon</i></a> es una aventura conversacional totalmente generada por un modelo de lenguaje basado en un modelo propio de lenguaje (originalmente fue GPT-2)<br />
-<sup>8</sup> Artículo: <a href="https://d1wqtxts1xzle7.cloudfront.net/30705837/garaas_xiao_pomplun_HCII2007-libre.pdf?1391841084=&amp;response-content-disposition=inline%3B+filename%3DPersonalized_Spell_Checking_using_Neural.pdf&amp;Expires=1676766534&amp;Signature=bwuOh8AgKTsngRHfOLKY3lUw3vdyjbKVLR5fLs9usZWTCh426GVRrhpeBJWjXdDYrDostORzmQfYGLyUK4Np71q8ZdjSYCgXUPe-1I~SfYMYtaWns5tOH7UZ02FAKuji2FmigbfLFQ24VEd-rufeCdAydjqVdkOX3nQNNCM5mLfIMxXOizPnuhsm9Qkn1EzSbXUIYcsaJgpVVLOn0lMWtPuMzMzhAoWgLxjHr1dVs1e97Vw1XyQTyAdyviJ98mgzAyCA0FKqn65~Xyl76mjUEr47uXCSrK4jA~Lxzu78Ta5r8LdO~wXWiZaFLlCcX5wCFE-CE~gIbeijpJMm6-vSQA__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"><i>Personalized spell checking using neural networks.</i></a></p>
+<p><sup>4</sup> Proyecto: <a href="https://openassistant.org"><em>Open Assistant</em></a><br />
+<sup>5</sup> Proyecto: <a href="https://mycroft.ai"><em>Mycroft AI</em></a><br />
+<sup>6</sup> Proyecto: <a href="https://dragon.computer/"><em>Dragonfire</em></a><br />
+<sup>7</sup> El juego <a href="https://play.aidungeon.io"><em>AI Dungeon</em></a> es una aventura conversacional totalmente generada por un modelo de lenguaje basado en un modelo propio de lenguaje (originalmente fue GPT-2)<br />
+<sup>8</sup> Artículo: <a href="https://d1wqtxts1xzle7.cloudfront.net/30705837/garaas_xiao_pomplun_HCII2007-libre.pdf?1391841084=&amp;response-content-disposition=inline%3B+filename%3DPersonalized_Spell_Checking_using_Neural.pdf&amp;Expires=1676766534&amp;Signature=bwuOh8AgKTsngRHfOLKY3lUw3vdyjbKVLR5fLs9usZWTCh426GVRrhpeBJWjXdDYrDostORzmQfYGLyUK4Np71q8ZdjSYCgXUPe-1I~SfYMYtaWns5tOH7UZ02FAKuji2FmigbfLFQ24VEd-rufeCdAydjqVdkOX3nQNNCM5mLfIMxXOizPnuhsm9Qkn1EzSbXUIYcsaJgpVVLOn0lMWtPuMzMzhAoWgLxjHr1dVs1e97Vw1XyQTyAdyviJ98mgzAyCA0FKqn65~Xyl76mjUEr47uXCSrK4jA~Lxzu78Ta5r8LdO~wXWiZaFLlCcX5wCFE-CE~gIbeijpJMm6-vSQA__&amp;Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"><em>Personalized spell checking using neural networks</em></a></p>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-class="section" data-theme="avocado" class="section" data-marpit-pagination="13" data-marpit-pagination-total="68" style="--paginate:true;--class:section;--theme:avocado;">
@@ -340,7 +339,7 @@ los <i>embeddings</i></li>
 <h1>¡EN APRENDIZAJE PROFUNDO SE TRABAJA CON NÚMEROS!</h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-paginate="true" data-class="section" data-theme="avocado" class="section" data-marpit-pagination="21" data-marpit-pagination-total="68" style="--paginate:true;--class:section;--theme:avocado;">
-<h1>Codificación <i>one-hot</i></h1>
+<h1>Codificación <em>one-hot</em></h1>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-theme="avocado" data-marpit-pagination="22" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
 <h1>Codificación <em>one-hot</em></h1>
@@ -468,15 +467,15 @@ los <i>embeddings</i></li>
 </ul>
 <p><em>Transfer learning</em> <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex" xmlns="http://www.w3.org/2000/svg" width="1.76ex" height="1.505ex" role="img" focusable="false" viewBox="0 -583 778 665"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container> <em>embeddings</em> <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex" xmlns="http://www.w3.org/2000/svg" width="1.76ex" height="1.505ex" role="img" focusable="false" viewBox="0 -583 778 665"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g></g></g></svg></mjx-container> Pilar fundamental del NLP</p>
 <ul>
-<li>Veremos los dos métodos más conocidos: <i>Word2Vec</i> y <i>GLoVe</i></li>
+<li>Veremos los dos métodos más conocidos: <em>Word2Vec</em> y <em>GLoVe</em></li>
 </ul>
 <blockquote>
-<p><sup>11</sup> Existen desde el 2001 (<a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf"><i>A neural probabilistic language model</i></a>), pero el verdadero boom fue a partir del 2013 (<a href="https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf"><i>Distributed representations of words and phrases and their compositionality</i></a>), momento en el que se mejoró su eficiencia de manera dramática.</p>
+<p><sup>11</sup> Existen desde el 2001 (<a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf"><em>A neural probabilistic language model</em></a>), pero el verdadero boom fue a partir del 2013 (<a href="https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf"><em>Distributed representations of words and phrases and their compositionality</em></a>), momento en el que se mejoró su eficiencia de manera dramática.</p>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-paginate="true" data-theme="avocado" data-marpit-pagination="27" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
-<h1>¿Cómo se usan los <i>embeddings</i>?</h1>
-<p>Generalmente a través de <i>transfer learning</i>, lo cual es bueno porque:</p>
+<h1>¿Cómo se usan los <em>embeddings</em>?</h1>
+<p>Generalmente a través de <em>transfer learning</em>, lo cual es bueno porque:</p>
 <ul>
 <li>Hay gente/compañías con más recursos computacionales que nosotros</li>
 <li>Encontrar los mejores hiperparámetros es una tarea ardua (ensayo y error)</li>
@@ -486,7 +485,7 @@ los <i>embeddings</i></li>
 <ul>
 <li>En Keras significa no usar una capa <code>Dense()</code>, sino las capas <code>Embedding()</code></li>
 </ul>
-<p>¿Y si el dataset tiene palabras que no existen en el <i>embedding</i> preentrenado?</p>
+<p>¿Y si el dataset tiene palabras que no existen en el <em>embedding</em> preentrenado?</p>
 <ul>
 <li>Abreviaturas, modismos, palabras mal escritas, palabras poco comunes, ...</li>
 <li>Los pesos pueden ser inicializados aleatoriamente o a 0</li>
@@ -496,19 +495,19 @@ los <i>embeddings</i></li>
 <h1>¿Deberíamos entrenar los embeddings?</h1>
 <p><code>model.fit(X, Y)</code> <strong>actualiza</strong> automáticamente <strong>todos los parámetros</strong> del modelo</p>
 <ul>
-<li>¿Entrenamos el <i>embedding</i>? La mayoría de las bibliotecas no son tan finas
+<li>¿Entrenamos el <em>embedding</em>? La mayoría de las bibliotecas no son tan finas
 <ul>
 <li>Vamos, o lo entrenamos entero, o no lo entrenamos</li>
 </ul>
 </li>
 <li>No olvidemos de que <em>las palabras poco comunes son</em>, por definición, <em>poco comunes</em></li>
 </ul>
-<p>Por lo general, no tenemos que molestarnos en hacer un <i>fine-tunning</i> del <i>embedding</i></p>
+<p>Por lo general, no tenemos que molestarnos en hacer un <em>fine-tunning</em> del <em>embedding</em></p>
 <ul>
 <li>Pero a veces es bueno experimentar con nuestros propios datos</li>
 <li>En Keras, si lo necesitamos, basta simplemente con cambiar el atributo <code>trainable</code>:
 <ul>
-<li><code>embedding_layer.trainable = True</code> <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container> <i>fine-tunning</i> (valor por defecto)</li>
+<li><code>embedding_layer.trainable = True</code> <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container> <em>fine-tunning</em> (valor por defecto)</li>
 <li><code>embedding_layer.trainable = False</code> <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path></g></g></g></svg></mjx-container> Pesos constantes</li>
 </ul>
 </li>
@@ -533,8 +532,8 @@ los <i>embeddings</i></li>
 </ul>
 <p>Existen dos arquitecturas dependiendo de su cometido</p>
 <ul>
-<li><i>Continous bag-of-words (CBoW)</i>: Predice una palabra según las circundantes</li>
-<li><i>Skip-grams</i>: Predice las palabras circundantes en función de la central</li>
+<li><em>Continous bag-of-words (CBoW)</em>: Predice una palabra según las circundantes</li>
+<li><em>Skip-grams</em>: Predice las palabras circundantes en función de la central</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" data-paginate="true" data-theme="avocado" data-marpit-pagination="32" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
@@ -607,7 +606,7 @@ los <i>embeddings</i></li>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" data-paginate="true" data-theme="avocado" data-marpit-pagination="37" data-marpit-pagination-total="68" style="--paginate:true;--theme:avocado;">
 <h1>Arquitectura CBoW (V)</h1>
-<p>El producto entre <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.731ex" xmlns="http://www.w3.org/2000/svg" width="6.219ex" height="2.554ex" role="img" focusable="false" viewBox="0 -805.6 2748.8 1128.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msubsup"><g data-mml-node="mi"><path data-c="1D44A" d="M436 683Q450 683 486 682T553 680Q604 680 638 681T677 682Q695 682 695 674Q695 670 692 659Q687 641 683 639T661 637Q636 636 621 632T600 624T597 615Q597 603 613 377T629 138L631 141Q633 144 637 151T649 170T666 200T690 241T720 295T759 362Q863 546 877 572T892 604Q892 619 873 628T831 637Q817 637 817 647Q817 650 819 660Q823 676 825 679T839 682Q842 682 856 682T895 682T949 681Q1015 681 1034 683Q1048 683 1048 672Q1048 666 1045 655T1038 640T1028 637Q1006 637 988 631T958 617T939 600T927 584L923 578L754 282Q586 -14 585 -15Q579 -22 561 -22Q546 -22 542 -17Q539 -14 523 229T506 480L494 462Q472 425 366 239Q222 -13 220 -15T215 -19Q210 -22 197 -22Q178 -22 176 -15Q176 -12 154 304T131 622Q129 631 121 633T82 637H58Q51 644 51 648Q52 671 64 683H76Q118 680 176 680Q301 680 313 683H323Q329 677 329 674T327 656Q322 641 318 637H297Q236 634 232 620Q262 160 266 136L501 550L499 587Q496 629 489 632Q483 636 447 637Q428 637 422 639T416 648Q416 650 418 660Q419 664 420 669T421 676T424 680T428 682T436 683Z"></path></g><g data-mml-node="mi" transform="translate(1136.2,363) scale(0.707)"><path data-c="1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"></path></g><g data-mml-node="TeXAtom" transform="translate(977,-307.7) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></g><g data-mml-node="mo" transform="translate(769,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mi" transform="translate(1547,0)"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></g></g></svg></mjx-container> y el <i>one hot</i> de una palabra nos da su vector</p>
+<p>El producto entre <mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.731ex" xmlns="http://www.w3.org/2000/svg" width="6.219ex" height="2.554ex" role="img" focusable="false" viewBox="0 -805.6 2748.8 1128.9"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msubsup"><g data-mml-node="mi"><path data-c="1D44A" d="M436 683Q450 683 486 682T553 680Q604 680 638 681T677 682Q695 682 695 674Q695 670 692 659Q687 641 683 639T661 637Q636 636 621 632T600 624T597 615Q597 603 613 377T629 138L631 141Q633 144 637 151T649 170T666 200T690 241T720 295T759 362Q863 546 877 572T892 604Q892 619 873 628T831 637Q817 637 817 647Q817 650 819 660Q823 676 825 679T839 682Q842 682 856 682T895 682T949 681Q1015 681 1034 683Q1048 683 1048 672Q1048 666 1045 655T1038 640T1028 637Q1006 637 988 631T958 617T939 600T927 584L923 578L754 282Q586 -14 585 -15Q579 -22 561 -22Q546 -22 542 -17Q539 -14 523 229T506 480L494 462Q472 425 366 239Q222 -13 220 -15T215 -19Q210 -22 197 -22Q178 -22 176 -15Q176 -12 154 304T131 622Q129 631 121 633T82 637H58Q51 644 51 648Q52 671 64 683H76Q118 680 176 680Q301 680 313 683H323Q329 677 329 674T327 656Q322 641 318 637H297Q236 634 232 620Q262 160 266 136L501 550L499 587Q496 629 489 632Q483 636 447 637Q428 637 422 639T416 648Q416 650 418 660Q419 664 420 669T421 676T424 680T428 682T436 683Z"></path></g><g data-mml-node="mi" transform="translate(1136.2,363) scale(0.707)"><path data-c="1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"></path></g><g data-mml-node="TeXAtom" transform="translate(977,-307.7) scale(0.707)" data-mjx-texclass="ORD"><g data-mml-node="mi"><path data-c="1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></g><g data-mml-node="mo" transform="translate(769,0)"><path data-c="D7" d="M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z"></path></g><g data-mml-node="mi" transform="translate(1547,0)"><path data-c="1D441" d="M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z"></path></g></g></g></g></g></svg></mjx-container> y el <em>one hot</em> de una palabra nos da su vector</p>
 <figure>
 <img src="images/nlp-cbow-ex04.png"
      alt="Obtención del vector de características de una palabra a partir de su codificación one hot"
@@ -678,15 +677,16 @@ los <i>embeddings</i></li>
 <ul>
 <li>Hay estudios que van desde el nivel &quot;subpalabra&quot;<sup>15</sup> al de oración<sup>16</sup></li>
 <li>Trasciende el NLP, aplicandose al dominios como los grafos<sup>17</sup> o la biología<sup>18</sup></li>
-<li>Proyectar <i>embeddings</i> de diferentes idiomas sobre el mismo espacio vectorial<sup>19</sup></li>
+<li>Proyectar <em>embeddings</em><br />
+de diferentes idiomas sobre el mismo espacio vectorial<sup>19</sup></li>
 </ul>
 <blockquote>
-<p><sup>14</sup> Artículo  <a href="https://nlp.stanford.edu/pubs/glove.pdf"><i>Glove: Global vectors for word representation</i></a>.<br />
-<sup>15</sup> Artículo: <a href="https://aclanthology.org/E17-2068/"><i>Bag of Tricks for Efficient Text Classification</i></a> (FastText).<br />
-<sup>16</sup> Artículos: <a href="https://proceedings.neurips.cc/paper/2015/file/f442d33fa06832082290ad8544a8da27-Paper.pdf"><i>Skip-thought vectors</i></a> y <a href="https://dl.acm.org/doi/10.5555/3044805.3045025"><i>Distributed representations of sentences and documents</i></a>.<br />
-<sup>17</sup> Artículo: <a href="https://arxiv.org/abs/1607.00653"><i>node2vec: Scalable Feature Learning for Networks</i></a>.<br />
-<sup>18</sup> Concretamente al estudio de las secuencias biológicas: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141287"><i>Continuous distributed representation of biological sequences for deep proteomics and genomics</i></a>.<br />
-<sup>19</sup> El objetivo es la transferencia multilingüe. Es un caso concreto <a href="https://en.wikipedia.org/wiki/Zero-shot_learning">Zero-shot Learning (ZSL)</a>, cuyo objetivo es conseguir un modelo útil a partir de pocos o ningún ejemplo etiquetado.</p>
+<p><sup>14</sup> Artículo  <a href="https://nlp.stanford.edu/pubs/glove.pdf"><em>Glove: Global vectors for word representation</em></a>.<br />
+<sup>15</sup> Artículo: <a href="https://aclanthology.org/E17-2068/"><em>Bag of Tricks for Efficient Text Classification</em></a> (FastText).<br />
+<sup>16</sup> Artículos: <a href="https://proceedings.neurips.cc/paper/2015/file/f442d33fa06832082290ad8544a8da27-Paper.pdf"><em>Skip-thought vectors</em></a> y <a href="https://dl.acm.org/doi/10.5555/3044805.3045025"><em>Distributed representations of sentences and documents</em></a>.<br />
+<sup>17</sup> Artículo: <a href="https://arxiv.org/abs/1607.00653"><em>node2vec: Scalable Feature Learning for Networks</em></a>.<br />
+<sup>18</sup> Concretamente al estudio de las secuencias biológicas: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141287"><em>Continuous distributed representation of biological sequences for deep proteomics and genomics</em></a>.<br />
+<sup>19</sup> El objetivo es la transferencia multilingüe. Es un caso concreto <a href="https://en.wikipedia.org/wiki/Zero-shot_learning"><em>Zero-shot Learning</em> (ZSL)</a>, cuyo objetivo es conseguir un modelo útil a partir de pocos o ningún ejemplo etiquetado.</p>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="43" data-paginate="true" data-class="section" data-theme="avocado" class="section" data-marpit-pagination="43" data-marpit-pagination-total="68" style="--paginate:true;--class:section;--theme:avocado;">
