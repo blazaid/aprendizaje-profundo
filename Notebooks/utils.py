@@ -121,3 +121,15 @@ def evaluate(*, model, data_loader, criterion, metric_fn=None):
     avg_metr = (metric_value / total_samples) if metric_fn is not None else None
 
     return {"loss": avg_loss, "metric": avg_metr}
+
+
+def get_device():
+    if torch.cuda.is_available():
+        return 'cuda'
+    elif torch.backends.mps.is_available():
+        return 'mps'
+    else:
+        return 'cpu'
+
+device = get_device()
+print(f'Using device: {device}')
