@@ -5,7 +5,7 @@ description = "Repositorio para almacenar contenidos que uso een diferentes asig
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "gdown>=5.2.0",
+    "datasets>=3.3.2",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.0",
     "music21>=9.5.0",
